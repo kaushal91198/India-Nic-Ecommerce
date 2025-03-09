@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Ubuntu Sans", sans-serif;
+
+  /* -----------------------------------------
+     Primary Colors
+     (Brand colors, slightly adjusted for dark mode backgrounds)
+  ----------------------------------------- */
+  --primary-100: #80aaff; /* Lighter accent of brand-blue for dark UI */
+  --primary-200: #0472fe; /* Main brand-blue (unchanged) */
+  --primary-300: #0465d9; /* Slightly darker than base for hover states, etc. */
+  --primary-400: #013d98; /* Darkest brand-blue for emphasis */
+
+  /* Text Colors for Primary Backgrounds */
+  --text-primary-100: #0a0c0f; /* Dark text on lighter primary (rare in dark mode) */
+  --text-primary-200: #ffffff; /* White text on base brand color */
+  --text-primary-300: #ffffff; /* White text on darker brand color */
+  --text-primary-400: #ffffff; /* White text on darkest brand color */
+
+  /* -----------------------------------------
+     Baseline Colors (Dark Mode Backgrounds)
+  ----------------------------------------- */
+  --baseline-100: #16191d; /* Main app background: dark neutral */
+  --baseline-200: #1d2126; /* Slightly lighter for secondary sections */
+  --baseline-300: #21262b; /* Another step lighter or accent background */
+  --baseline-400: #2a3036; /* Highest “baseline” background in dark mode */
+
+  /* Text Colors for Baseline Backgrounds */
+  --text-baseline-100: #ffffff; /* Light text for the darkest background */
+  --text-baseline-200: #eaeaea; /* Slightly off-white for contrast on dark */
+  --text-baseline-300: #eaeaea; /* Still readable on a medium-dark background */
+  --text-baseline-400: #ffffff; /* White text for darkest accent backgrounds */
+
+  /* -----------------------------------------
+     Utility Colors
+     (Kept the same brand colors but are often bright enough to “pop” on dark)
+  ----------------------------------------- */
+  --utils-danger: #e63946; /* Same Danger color */
+  --utils-info: #00b4d8; /* Same Info color */
+  --utils-success: #2fd45c; /* Same Success color */
+  --utils-warning: #fcbf49; /* Same Warning color */
+  --utils-imp: #ff6f61; /* Same Important color */
+
+  /* Text Colors for Utility Colors */
+  --text-utils-danger: #ffffff; /* White text on danger backgrounds */
+  --text-utils-info: #ffffff; /* White text on info backgrounds */
+  --text-utils-success: #ffffff; /* White text on success backgrounds */
+  --text-utils-warning: #000000; /* Black text on warning backgrounds */
+  --text-utils-imp: #ffffff; /* White text on important backgrounds */
+
+  /* -----------------------------------------
+     Borders
+     (Slightly lighter or same brand for consistency in dark mode)
+  ----------------------------------------- */
+  --border-primary: #0472fe; /* Same brand color for primary border */
+  --border-baseline: #3e4953; /* Subtle, medium-dark gray/blue for baseline borders */
+  --border-utils-accent: #0152cb; /* Accent border color */
+  --border-utils-danger: #e63946; /* Matches utils-danger */
+  --border-utils-success: #2fd45c; /* Matches utils-success */
+  --border-utils-warning: #fcbf49; /* Matches utils-warning */
+  --border-utils-info: #00b4d8; /* Matches utils-info */
+  --border-utils-imp: #ff6f61; /* Matches utils-imp */
+}
+@theme {
+ 
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #fff !important;
+}

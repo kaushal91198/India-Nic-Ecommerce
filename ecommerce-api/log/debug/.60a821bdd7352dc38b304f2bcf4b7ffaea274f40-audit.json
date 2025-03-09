@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\India nic\\Ecommerce\\ecommerce-api\\log\\debug\\.60a821bdd7352dc38b304f2bcf4b7ffaea274f40-audit.json",
+    "files": [
+        {
+            "date": 1741432307542,
+            "name": "C:\\India nic\\Ecommerce\\ecommerce-api\\log\\debug\\2025-03-08.log",
+            "hash": "e302cf5d28f06f0b0cdea8916f645ac1c4ca259d83024d52d66cce5c9dcfaf12"
+        },
+        {
+            "date": 1741520389225,
+            "name": "C:\\India nic\\Ecommerce\\ecommerce-api\\log\\debug\\2025-03-09.log",
+            "hash": "b0c56c20e6bbd00e4313b46e87788b62f3498df8f095cd529f8616e176622abe"
+        }
+    ],
+    "hashType": "sha256"
+}
